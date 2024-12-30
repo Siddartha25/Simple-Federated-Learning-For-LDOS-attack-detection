@@ -10,3 +10,7 @@ contains a simple federated ML model which uses a bidirectional lstm to classify
 
 **Federated_LDOS_modification-2**:
 it is an improvement over Federated_LDOS which contains a better ML model and it also incorporates differential privacy and homogenous encryption in order to secure the communication between the federated clients and the central server, differntial privacy reduces the accuracy inorder to improve privacy so I need to find a better method to provide privacy of client data without compromising accuracy in the learning process 
+
+
+**Federated_LDOS_modification-3**:
+it is an improvement in the weight updation of the federated learning process in which I used asynchronous and staleness asynchronous weight updation technniques to check the difference in the acuuracy of the federated model if we use different weight updation techniques
